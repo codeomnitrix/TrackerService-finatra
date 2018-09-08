@@ -1,4 +1,4 @@
-name := "affTracker"
+name := "TrackerService"
 
 version := "0.1"
 
