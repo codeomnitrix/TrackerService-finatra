@@ -354,11 +354,13 @@ _____
 
 ### Forwarder Service
 #### Traffic Source to Affiliate Link
+- GET `/forwarder/<campaign_id>/<tracking_params>`
 - Forwarder service will receive traffic from traffic source
 - Grab all the tracking params from url and put against campaign id
 - Route to offer generated url based upon selected parameters
 
 #### Receive conversion call
+- GET `conversions/<click_id>`
 - Forwarder service will receive traffic from affiliate network
 - Grab the tracking param and based upon click-id update the campaign data for conversion
 - Call pixel of traffic source i.e. link or execute javascript code
