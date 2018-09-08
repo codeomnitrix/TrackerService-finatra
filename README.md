@@ -2,7 +2,7 @@
 _____
 - [AffTracker- Affiliate Marketing Tracker](#afftracker--affiliate-marketing-tracker)
   * [List of Microservices](#list-of-microservices)
-    + <details><summary>[Tracker Service](#tracker-service)</summary>
+    + [Tracker Service](#tracker-service)
       - [I. Traffic Source](#i-traffic-source)
         * [1) POST `/tracker/v1/traffic-source/create`](#1--post---tracker-v1-traffic-source-create-)
           + [Request Payload](#request-payload)
@@ -47,7 +47,6 @@ _____
           + [Response Payload](#response-payload-14)
         * [4) GET `/tracker/v1/campaign/viewall`](#4--get---tracker-v1-campaign-viewall-)
           + [Response Payload](#response-payload-15)
-    </details>
     + [Landing Page Service](#landing-page-service)
       - [1) POST `/lander/v1/create`](#1--post---lander-v1-create-)
         * [Request Payload](#request-payload-6)
