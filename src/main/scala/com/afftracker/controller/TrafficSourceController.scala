@@ -9,7 +9,7 @@ import com.twitter.util.Future
 
 case class Pong(message: String)
 
-class HelloWorldController @Inject() (trafficSourceService: TrafficSourceService)  extends Controller {
+class TrafficSourceController @Inject() (trafficSourceService: TrafficSourceService)  extends Controller {
   get("/hi") {
     request: Request => {
       info("hi")

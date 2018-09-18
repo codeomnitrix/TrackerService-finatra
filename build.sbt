@@ -18,3 +18,4 @@ resolvers ++= Seq(
 
 libraryDependencies += "com.twitter" %% "finatra-http" % versions.finatra
 libraryDependencies += "io.swagger" %% "swagger-scala-module" % versions.swagger
+libraryDependencies += "org.mongodb.scala" %% "mongo-scala-driver" % "2.4.1"
